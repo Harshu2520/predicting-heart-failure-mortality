@@ -56,28 +56,7 @@ NumPy, Pandas
 Matplotlib, Seaborn
 scikit-learn
 TensorFlow / Keras
-🚀 How to Run
-bash
-# 1. Clone the repository
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
 
-# 2. Install dependencies
-pip install numpy pandas matplotlib seaborn scikit-learn tensorflow
-
-# 3. Place the dataset in the project folder
-#    heart_failure_clinical_records_dataset.csv
-
-# 4. Run the script / open the notebook
-python predicting_the_mortality_of_heart_failure_patients.py
-
-Update the CSV path inside the script (pd.read_csv(...)) if you are not running on Google Colab.
-
-📁 Repository Structure
-├── predicting_the_mortality_of_heart_failure_patients.py   # Main code
-├── heart_failure_clinical_records_dataset.csv              # Dataset
-├── README.md
-└── requirements.txt
 🔮 Future Work
 Hyperparameter tuning (GridSearchCV) for SVM and ANN
 Try Random Forest, XGBoost, Logistic Regression for comparison
